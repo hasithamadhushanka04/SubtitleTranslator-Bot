@@ -1,17 +1,13 @@
 from pyrogram.types import InlineKeyboardButton
 from creds import cred
 
-welcome = "`Give me the subtitle file you want to translate..`"
-about = (
-    "`Bot`            : [subtransbot](t.me/subtransbot)\n`Creator :` [agentnova](t.me/agentnova)\n`Language:` ["
-    "Python3](https://python.org)\n`Library :` [Pyrogram](https://docs.pyrogram.org/) \n`Server  :` [Heroku]("
-    "https://herokuapp.com/) "
-)
+welcome = "**ඔබට translate කිරීමට අවශ්‍ය උපසිරැසිය මට ලබා දෙන්න. කරුණාකර මෙම බොට්ගේ යාවත්කාලීන කිරීම දැනගන්න අපගේ ප්‍රධාන චැනලයට එක් වෙන්න.**"
+about = "**මෙම බොට් මගින් ඔබට කුමක් හෝ භාශාවකින් තිබෙන උපසිරසියක් තවත් භාෂාවකට පරිවර්තනය කල හැක**"
 help_text = (
-    "**Steps to follow**\n\n`This is a subtitle translator bot`\n**1.** `Send me the subtitle file inorder to "
-    "translate.`\n**2.** `Select the destination language(dont press multiple buttons).`\n**3.** `Wait some time "
-    "to complete the translation.`\n\n**Keep in mind**\n\n**1.** `You can only translate one subtitle at a "
-    "time`\n**2.** `Dont forward bulk files together , You will be banned` "
+    "**අනුගමනය කළ යුතු පියවර**\n\n**මේක subtitle translator bot එකක්**\n**1. පරිවර්තනය කිරීම සඳහා උපසිරැසි ගොනුව මට එවන්න.** "
+    "\n**2. පරිවර්තනය කල යුතු භාෂාව තෝරන්න (බොත්තම් කිහිපයක් ඔබන්න එපා).**\n**3. පරිවර්තනය සම්පූර්ණ කිරීමට යම් කාලයක් රැඳී සිටින්න.** "
+    "\n\n**මතක තබා ගන්න**\n\n**1. ඔබට එකවර පරිවර්තනය කළ හැක්කේ එක් උපසිරැසියක් පමණි** "
+    "\n**2. උපසිරැසි ගොනු කිහිපයක් එකවර යොමු නොකරන්න.** "
 )
 eta_text = (
     "**File name :** `{}`\n**Done** `{}` **of** `{}`\n**Percentage:** {}%\n**Speed:** {} lines/sec\n**ETA:** {}\n[{"
